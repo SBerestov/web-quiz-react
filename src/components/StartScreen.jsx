@@ -33,7 +33,7 @@ function StartScreen({ onSelectCategory }) {
       <ul className="start-categories">
         {categories.map((cat) => (
           <li onClick={() => onSelectCategory(cat.name)}>
-            <img src={"/img/" + cat.name + ".png"} width={50} height={50} />
+            <img src={"/img/" + cat.name + ".png"} width={50} height={50} alt="Quiz start illustration"  />
             <div className="content">
               <h3>{cat.name}</h3>
               <p>{cat.description}</p>
