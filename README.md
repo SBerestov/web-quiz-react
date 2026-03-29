@@ -12,7 +12,7 @@
 
 Преподаватель: __Курушин Даниил Сергеевич__
 
-Демо на Vercel - https://react-quiz-chi-ten.vercel.app/
+Демо на Vercel - https://web-quiz-react-eosin.vercel.app/
 
 ## ✨ Особенности
 
