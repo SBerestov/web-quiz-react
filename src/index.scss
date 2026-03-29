@@ -16,6 +16,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+
+  @media (max-width: 768px) {
+    height: unset;
+  }
 }
 
 .logo {
@@ -26,15 +30,36 @@ body {
   align-items: center;
   gap: 18px;
 
+  @media (max-width: 768px) {
+    position: static;
+    padding: 16px 24px;
+    gap: 12px;
+  }
+
+  img {
+    @media (max-width: 768px) {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
   h2 {
     color: white;
     font-size: 36px;
     font-weight: 900;
+
+    @media (max-width: 768px) {
+      font-size: 34px;
+    }
   }
 }
 
 .start-container {
   display: grid;
+
+  @media (max-width: 768px) {
+    margin-top: 52px;
+  }
 
   h2 {
     font-size: 43px;
@@ -43,6 +68,11 @@ body {
     text-align: center;
     margin: 0;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      font-size: 38px;
+      line-height: 1;
+    }
   }
 
   .subtitle {
@@ -50,6 +80,10 @@ body {
     font-weight: 500;
     color: white;
     text-align: center;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   .start-categories {
@@ -58,6 +92,13 @@ body {
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      margin-top: 46px;
+      gap: 16px;
+      padding: 0px 12px 12px 12px;
+    }
 
     li {
       display: flex;
@@ -103,6 +144,14 @@ body {
   padding: 40px;
   background-color: #fff;
   position: relative;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 95%;
+    margin-top: 78px;
+  }
 
   .result {
     text-align: center;
