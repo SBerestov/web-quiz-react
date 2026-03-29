@@ -19,6 +19,7 @@ body {
 
   @media (max-width: 768px) {
     height: unset;
+    display: block;
   }
 }
 
@@ -150,7 +151,9 @@ body {
     flex-direction: column;
     justify-self: center;
     width: 95%;
-    margin-top: 78px;
+    margin-top: 36px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
 
   .result {
